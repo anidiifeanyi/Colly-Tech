@@ -1,0 +1,302 @@
+@media (max-width: 900px) {
+
+        .brief img {
+            height: 100% !important;
+            width: 50% !important;
+        }
+
+        .testimonies-content ul {
+            display: block !important;
+            grid-template-rows: 1fr !important;
+        }
+
+        .testimonies-content ul li:nth-of-type(1), 
+        .testimonies-content ul li:nth-of-type(2), 
+        .testimonies-content ul li:nth-of-type(3),
+        .testimonies-content ul li:nth-of-type(4) {
+            margin-bottom: 30px;
+        }
+
+        .testimonies #about-grid ul {
+            display: block !important;
+            grid-template-rows: 1fr !important;
+        }
+    
+        .testimonies #about-grid ul li:nth-of-type(1),
+        .testimonies #about-grid ul li:nth-of-type(2),
+        .testimonies #about-grid ul li:nth-of-type(3),
+        .testimonies #about-grid ul li:nth-of-type(4) {
+            padding-bottom: 15px;
+        }
+
+        .footer-content .subscribe {
+            margin: 0 100px !important;
+    
+        }
+
+}
+
+
+
+
+
+
+/* ------ Medium Screen --------- */
+
+
+@media (max-width: 768px) {
+    #showcase img {
+            display: none;
+    }
+
+    #showcase .container img {
+        display: none;
+    }
+
+    #showcase-2,
+    #showcase-3 {
+        display: none;
+    }
+
+    #services .container .services-content ul {
+        flex-direction: column;
+        margin-bottom: 30px !important;
+    }
+
+    .brief-content img {
+        display: none !important;
+    }
+
+    .services-berif .container {
+        height: 12rem !important;
+        padding: 100px 20px !important;
+    }
+
+    #services .container .services-content ul {
+        flex-direction: column;
+        margin-bottom: 30px !important;
+    }
+
+    .brief-content img {
+        display: none;
+    }
+
+    #cloud-services {
+        margin-left: 0px !important;
+
+    }
+
+    #web-hosting {
+        padding-right: 0px !important;
+    }
+
+    .brief .services-berif #remote-work-image {
+        display: none;
+    }
+
+    #services .container .services-content ul li:nth-of-type(1),
+    #services .container .services-content ul li:nth-of-type(2),
+    #services .container .services-content ul li:nth-of-type(3) {
+        margin-bottom: 30px;
+    }
+    
+        .brief img {
+            display: none;
+        }
+    
+        .brief .brief-content .brief-content-btn h3 {
+            margin-right: none;
+        }
+    
+        #testimony-home ul li {
+            display: none !important;
+        }
+    
+        .brief .container {
+            margin-bottom: -30px;
+            display: block;
+            flex: none;
+        }
+    
+        .testimonies #about-grid ul {
+            display: block !important;
+            grid-template-rows: 1fr !important;
+        }
+    
+        .testimonies #about-grid ul li:nth-of-type(1),
+        .testimonies #about-grid ul li:nth-of-type(2),
+        .testimonies #about-grid ul li:nth-of-type(3),
+        .testimonies #about-grid ul li:nth-of-type(4) {
+            padding-bottom: 15px;
+        }
+    
+ 
+        footer {
+            height: 22rem !important;
+    
+        }
+    
+        footer .container .footer-content {
+            flex-direction: row;
+            /* flex-direction: column; */
+        }
+    
+        footer .container .footer-content .subscribe {
+            margin: 0px !important;
+            margin-right: 250px !important;
+        }
+    
+        footer .container .footer-content ul {
+            display: none;
+        }
+    
+        footer .container .footer-content .subscribe {
+            margin-bottom: 30px !important;
+        }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----- SMALL SCREEN ------ */
+
+@media (max-width: 500px) {
+    #navbar .container {
+        display: block;
+    }
+        #navbar .container .nav-logo {
+            display: none;
+
+        }
+
+        #navbar .container a {
+            font-size: 15px !important;
+            margin-right: 0;
+        }
+
+        #showcase .container img{
+            display: none;
+        }
+
+        #showcase-2, #showcase-3 {
+            display: none;
+        }
+
+        #services .container .services-content ul {
+        flex-direction: column;
+        margin-bottom: 30px !important;
+        }
+
+        .brief .container {
+            flex: none !important;
+        }
+
+        .brief-content img {
+            display: none;
+        }
+
+        .services-berif .container {
+            height: 22rem !important;
+        }
+
+        .services-berif .container:last-child {
+            padding-bottom: -100px !important;
+        }
+
+        #cloud-services {
+            margin-left: 0px !important;
+
+        }
+
+        #web-hosting {
+            padding-right: 0px !important;
+        }
+
+        .brief .services-berif #remote-work-image{
+            display: none;
+        }
+
+
+        #services .container .services-content ul li:nth-of-type(1),
+        #services .container .services-content ul li:nth-of-type(2),
+        #services .container .services-content ul li:nth-of-type(3) {
+            margin-bottom: 30px;
+        }
+
+        .brief img {
+            display: none;
+        }
+        .brief .brief-content .brief-content-btn h3 {
+            margin-right: none;
+        }
+        #testimony-home ul li {
+            display: none !important;
+        }
+
+        .brief .container {
+            margin-bottom: -30px;
+            display: block;
+            flex: none;
+        }
+
+        .testimonies #about-grid ul {
+            display: block !important;
+            grid-template-rows: 1fr !important;
+        }
+
+        .testimonies #about-grid ul li:nth-of-type(1), 
+        .testimonies #about-grid ul li:nth-of-type(2), 
+        .testimonies #about-grid ul li:nth-of-type(3), 
+        .testimonies #about-grid ul li:nth-of-type(4) {
+            padding-bottom: 15px;
+        }
+
+
+        .form-group input,
+        textarea, label {
+        width: 20rem !important;
+        margin-left: 10px !important;
+        }
+
+        #button {
+        width: 20rem !important;
+        margin-left: 10px !important;
+        }
+
+        
+
+
+        footer {
+            height: 22rem !important;
+            
+        }
+
+        footer .container .footer-content {
+            flex-direction: column;
+            /* flex-direction: column; */
+        }
+        
+        footer .container .footer-content .subscribe {
+            margin: 0px !important;
+        }
+
+                footer .container .footer-content ul{
+                    display: none;
+                }
+
+        footer .container .footer-content .subscribe {
+            margin-bottom: 30px !important;
+        }
+
+
+
+}
